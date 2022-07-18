@@ -21,10 +21,12 @@ body, html {
     margin-bottom: 60px;
 }
 
-.paginas {
+.paginas:hover {
     text-align: right;
     font-size: 16px;
     padding: 0px 40px;
+    transform: scale(1.1) ;
+    transition: transform 0.7s ease;
 }
 
 .paginas a {
@@ -55,6 +57,17 @@ a:visited {
     justify-content: center;
     align-items: flex-end;
     padding: 60px 0px;
+
+}
+
+.reiki .logo-reiki:hover{
+    transform: scale(1.1) ;
+    transition: transform 0.7s ease;
+}
+
+.filosofia .manos-reiki:hover{
+    transform: scale(1.1) ;
+    transition: transform 0.7s ease;
 }
 .reiki {
     display: flex;
