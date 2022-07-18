@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="../css/contacto.css" />
+</head>
+
+<body>
+
+    <div class="paginas">
+        <a href="../index.html">INICIO</a>
+        <a href="./about.html">QUIENES SOMOS</a>
+        <a href="./videos.html">VIDEOS</a>
+        <a href="./talleres.html">TALLERES</a>
+        <a href="./contacto.html">CONTACTO</a>
+    </div>
+    <div class="contenedor-formulario">
+        <form action="correo.php" method="post" enctype="text/plain" class="form">
+            <h1 class="contact">Contacto</h1>
+            <div class="grupo-input">
+                <label for="nombre">Nombres</label>
+                <input type="text" id="nombre" name="nombre" placeholder="emilio ernesto" />
+            </div>
+            <div class="grupo-input">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" placeholder="rubio madariaga" />
+            </div>
+            <div class="grupo-input">
+                <label for="correo electronico">Correo electronico</label>
+                <input type="mail" id="mail" name="email" placeholder="contacto@gmail.com">
+            </div>
+            <div class="grupo-input">
+                <label for="number">Numero de telefono</label>
+                <input type="number" id="number" name="numero de telefono" placeholder="+56987654321">
+            </div>
+            <div class="grupo-input">
+                <label for="comentario">Comentario</label>
+                <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario"
+                    name="comentario"></textarea>
+            </div>
+            <button type="submit" id="submit" name="submit">Enviar</button>
+            <button type="reset" id="reset" name="reset">Restablecer</button>
+        </form>
+    </div>
+    <br>
+    <div class="contenedor-mapa">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.5648666859215!2d-70.6025686850868!3d-33.5906454121065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d76afa75859f%3A0x101ef30d76c03672!2sEugenia%201765%2C%20Cordillera%2C%20Puente%20Alto%208151292%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1655610265374!5m2!1ses-419!2scl"
+            style="border:0;" width="500" height="350" allowfullscreen="" loading="lazy" aria-hidden="false"
+            frameborder="0" tabindex="0" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+body {
+    background-image: url(../img/sunrise.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+body,
+html {
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedor-videos {
+    margin-top: 50px;
+}
+
+.video {
+    margin: auto;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size-adjust: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginas {
+    text-align: right;
+    font-size: 16px;
+    margin-top: 50px;
+    padding: 0px 30px;
+}
+
+.paginas a {
+    margin-left: 10px;
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+    border-left: 1px solid white;
+
+}
+
+a:visited {
+    color: white;
+
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    padding: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .paginas {
+        text-align: center;
+    }
+
+    .video iframe {
+        width: 90%;
+    }
+}
