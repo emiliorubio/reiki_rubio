@@ -57,6 +57,11 @@ p {
     width: 500px;
 }
 
+.contenedorimg .yoga:hover{
+    transform: scale(1.1) ;
+    transition: transform 0.7s ease;
+}
+
 @media screen and (max-width: 1024px) {
     .paginas {
         text-align: center;

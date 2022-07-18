@@ -21,12 +21,11 @@ body, html {
     margin-bottom: 60px;
 }
 
-.paginas:hover {
+.paginas {
     text-align: right;
     font-size: 16px;
     padding: 0px 40px;
-    transform: scale(1.1) ;
-    transition: transform 0.7s ease;
+    
 }
 
 .paginas a {
