@@ -1,0 +1,68 @@
+body {
+  background-image: url(../img/reiki-shamanico.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body,
+html {
+  margin: 0px;
+}
+
+.about {
+  color: white;
+  text-align: left;
+  margin-left: 50px;
+  text-decoration: underline;
+  font-size-adjust: 20px;
+}
+
+.paginas {
+  text-align: right;
+  font-size: 16px;
+  margin-top: 50px;
+  padding: 0px 20px;
+}
+
+.paginas a {
+  margin-left: 10px;
+  padding-left: 10px;
+  color: black;
+  text-decoration: none;
+  border-left: 1px solid white;
+}
+
+.informacion {
+  padding: 20px 30px;
+}
+
+a:visited {
+  color: black;
+}
+
+p {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.contenedorimg img {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  opacity: 0.7;
+  width: 500px;
+}
+
+.contenedorimg .yoga:hover {
+  transform: scale(1.1);
+  transition: transform 0.7s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .paginas {
+    text-align: center;
+  }
+}/*# sourceMappingURL=about.css.map */

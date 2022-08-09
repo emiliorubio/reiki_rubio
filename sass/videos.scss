@@ -1,3 +1,5 @@
+$color1:white; 
+
 body {
     background-image: url(../img/sunrise.jpg);
     background-repeat: no-repeat;
@@ -51,7 +53,7 @@ a:visited {
 
 p {
     font-size: 20px;
-    color: white;
+    color:$color1;
     padding: 40px;
 }
 

@@ -1,0 +1,89 @@
+body {
+  background-image: url(../img/playa.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body,
+html {
+  margin: 0px;
+}
+
+.paginas {
+  text-align: right;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+.paginas a {
+  margin-left: 10px;
+  padding-left: 10px;
+  color: white;
+  text-decoration: none;
+  border-left: 1px solid white;
+}
+
+a:visited {
+  color: white;
+}
+
+.titletaller {
+  color: white;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  margin-left: 50px;
+  text-decoration: underline;
+  font-size-adjust: 20px;
+}
+
+.listaordenada {
+  text-shadow: 2px 2px 2px black;
+}
+
+.listaordenada li {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+}
+
+.tabla {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin: 10px;
+  border: ridge;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-size: 25px;
+  color: white;
+}
+
+.contenedor-calendario {
+  width: 100%;
+  padding: 40px 30px;
+}
+
+.diasclases {
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 770px) {
+  .paginas {
+    text-align: center;
+  }
+}/*# sourceMappingURL=talleres.css.map */

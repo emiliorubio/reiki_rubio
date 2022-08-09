@@ -1,3 +1,6 @@
+$color1:white;
+$color2:black;
+
 body {
     background-image: url(../img/reiki-shamanico.jpeg);
     background-repeat: no-repeat;
@@ -11,7 +14,7 @@ html {
 }
 
 .about {
-    color: white;
+    color:$color1;
     text-align: left;
     margin-left: 50px;
     text-decoration: underline;
@@ -28,9 +31,9 @@ html {
 .paginas a {
     margin-left: 10px;
     padding-left: 10px;
-    color: white;
+    color: $color2;
     text-decoration: none;
-    border-left: 1px solid white;
+    border-left: 1px solid $color1;
 }
 
 .informacion {
@@ -38,12 +41,12 @@ html {
 }
 
 a:visited {
-    color: white;
+    color: $color2;
 }
 
 p {
     font-size: 30px;
-    color: white;
+    color: $color1;
     text-align: center;
     padding: 0px 20px;
 }
