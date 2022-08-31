@@ -4,10 +4,15 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+.logo {
+  width: 100px;
+}
 
 body,
 html {
+  padding-top: 70px;
   margin: 0px;
+
 }
 
 .contact {
@@ -89,6 +94,56 @@ label {
 
 .boton-formulario:hover {
   background-color: rgb(83, 125, 240);
+}
+.container {
+  max-width: 1400px;
+}
+.imglogo {
+  width: 100px;
+}
+
+
+.icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 50%;
+  transition: all .8s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: #1877f2;
+  box-shadow:  0 0 20px #1877f2 ;
+}
+
+.icon:hover:nth-child(2) {
+  background-color: #1877f2;
+  box-shadow:  0 0 20px #1877f2;
+}
+
+.icon:hover:nth-child(4) {
+  background-color: #e60073;
+  box-shadow:  0 0 20px #e60073 ;
+}
+
+.icon i {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 1.7rem;
+}
+
+svg circle {
+  stroke-dasharray: 150;
+  transition: all .8s ease-in-out;
+}
+
+.icon:hover circle {
+  stroke-dasharray: 220;
 }
 
 @media screen and (max-width: 770px) {
