@@ -7,11 +7,15 @@ body {
 
 body,
 html {
+  padding-top: 70px;
   margin: 0px;
 }
 
 .logo {
   width: 100px;
+}
+.titulo-bienvenida {
+  color: white;
 }
 
 .container {
